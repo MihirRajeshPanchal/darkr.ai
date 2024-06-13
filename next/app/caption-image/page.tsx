@@ -35,7 +35,7 @@ const CaptionImagePage = () => {
     formData.append('file', selectedFile);
 
     try {
-      const response = await fetch('http://127.0.0.1:5000/caption-image', {
+      const response = await fetch('https://darkr-ai.onrender.com/caption-image', {
         method: 'POST',
         body: formData,
       });
