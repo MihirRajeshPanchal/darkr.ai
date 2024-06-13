@@ -4,7 +4,7 @@ import { MainNavbar } from '../components/Navbar'
 const page = () => {
   return (
     <>
-    <MainNavbar />
+    {/* <MainNavbar /> */}
     <div>chat with images</div>
     </>
   )
