@@ -1,7 +1,5 @@
 from functions import *
 
-
-
 app = Flask(__name__) 
 CORS(app)
 
